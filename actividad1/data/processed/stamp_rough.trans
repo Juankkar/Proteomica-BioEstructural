@@ -1,0 +1,18 @@
+% Output from STAMP ROUGH FIT routine
+%  The sequences from the file globin.domains have been aligned from their
+%  N-terminal ends, andthe resulting equivalences were be used 
+% to generate the superpositions given below.
+% Domains ilh1 onto 3hrw RMS of 9.513035 on 141 atoms
+% Domains ilh1 onto 6sva RMS of 10.373237 on 139 atoms
+../data/raw/1lh1.pdb ilh1 { ALL 
+    1.0000     0.0000     0.0000       0.0000 
+    0.0000     1.0000     0.0000       0.0000 
+    0.0000     0.0000     1.0000       0.0000  } 
+../data/raw/hemoglominas_2/3hrw.pdb 3hrw { CHAIN A 
+   -0.7261     0.6787     0.1107      22.9094 
+   -0.4853    -0.3916    -0.7818      64.8217 
+   -0.4872    -0.6213     0.6137      39.3039  } 
+../data/raw/hemoglominas_2/6sva.pdb 6sva { CHAIN A 
+   -0.7827    -0.4196     0.4597       7.1170 
+    0.5965    -0.2945     0.7466      34.3723 
+   -0.1779     0.8586     0.4808      13.6359  } 
