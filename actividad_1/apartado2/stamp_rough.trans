@@ -1,0 +1,18 @@
+% Output from STAMP ROUGH FIT routine
+%  The sequences from the file globin.domains have been aligned from their
+%  N-terminal ends, andthe resulting equivalences were be used 
+% to generate the superpositions given below.
+% Domains 4mbn onto 3hrw RMS of 7.640139 on 141 atoms
+% Domains 4mbn onto 1y8i RMS of 7.621677 on 141 atoms
+4mbn.pdb 4mbn { ALL 
+    1.0000     0.0000     0.0000       0.0000 
+    0.0000     1.0000     0.0000       0.0000 
+    0.0000     0.0000     1.0000       0.0000  } 
+3hrw.pdb 3hrw { CHAIN A 
+    0.3579     0.5220     0.7742     -19.7757 
+    0.8963     0.0402    -0.4415      12.6003 
+   -0.2616     0.8520    -0.4535       4.3849  } 
+1y8i.pdb 1y8i { CHAIN A 
+   -0.5201     0.8245    -0.2231     -44.9051 
+    0.3355    -0.0430    -0.9411      51.1784 
+   -0.7855    -0.5643    -0.2542      69.8766  } 
