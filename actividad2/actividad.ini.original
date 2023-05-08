@@ -1,0 +1,14 @@
+[receptor]
+pdb         = 2ghu_atom_r.pdb
+mol         = A
+newmol      = A
+[ligand]
+pdb         = 1cew_atom_l.pdb
+mol         = I
+newmol      = I
+[reference]
+pdb         = 1yvb.pdb
+recmol      = A
+ligmol      = I
+newrecmol   = A
+newligmol   = I

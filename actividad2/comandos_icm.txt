@@ -1,0 +1,20 @@
+primera parte
+
+read pdb "complejo.pdb"
+
+display a_1.//ca,c,n ; color a_1.1 white ; color a_1.2 red
+
+read pdb "1yvb.pdb" ; display a_a,i//ca,c,n ; color a_a green; color a_i blue
+
+superimpose a_1.1 a_2.1 align ; a = Srmsd(a_1.2//ca a_2.a//ca align) ; print a
+
+
+segunda parte
+
+read pdb "complejo.pdb"
+
+display a_a,i//ca,c,n ; color a_. red ; color a_a white
+
+read pdb "1yvb.pdb" ; display a_a,i//ca,c,n ; color a_a green; color a_i blue
+
+superimpose a_a a_2.1 align ; a = Srmsd(a_a//ca a_2.a//ca align) ; print a

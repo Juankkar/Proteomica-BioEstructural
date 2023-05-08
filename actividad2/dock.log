@@ -1,0 +1,8 @@
+
+PyDock3
+  A set of tools for protein-protein docking
+  Version 3.2.3
+
+[pyDock3] INFO: Running pyDockRST...
+[Restraints] INFO: Reading pdb files...
+[pyDock3] ERROR: [RestraintsError] Can not find residue correspondence to 'A.Asn.21' restraint

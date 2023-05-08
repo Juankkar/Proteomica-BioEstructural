@@ -1,0 +1,80 @@
+00:00:00.00| INFO: START DOCKING 2ghu_atom_r.pdb with 1cew_atom_l.pdb
+00:00:00.00| INFO: Start reading PDB for receptor molecule
+00:00:00.05| INFO: Chem molecule: 7614 atoms were read
+00:00:00.07| INFO: Hydrogen molecule: 7614 atoms were read
+00:00:00.07| INFO: 3 residues were read from site file: s1.txt
+00:00:00.07| INFO: Start reading PDB for ligand molecule
+00:00:00.07| INFO: Chem molecule: 854 atoms were read
+00:00:00.07| INFO: Hydrogen molecule: 854 atoms were read
+00:00:00.07| INFO: 2 residues were read from site file: s2.txt
+00:00:00.10| INFO: Start building docking surface for receptor molecule
+00:00:00.10| INFO: Start building surface, molecule grid and distance function
+00:00:09.48| INFO: Start calculating Volume function and Normals for surface points
+00:00:09.77| INFO: Shuo surface size = 17550
+00:00:09.84| INFO: 3000sp processed
+00:00:09.92| INFO: 6000sp processed
+00:00:09.98| INFO: 9000sp processed
+00:00:10.06| INFO: 12000sp processed
+00:00:10.14| INFO: 15000sp processed
+00:00:10.68| INFO: Start calculating Active Site patches
+00:00:10.86| INFO: Running segmentation for KNB
+00:00:11.27| INFO: Running segmentation for FLT
+00:00:11.43| INFO: Running segmentation for HLE
+00:00:15.81| INFO: Final # of patches: 4
+00:00:15.81| INFO: Start calculating Geodesical distances
+00:00:15.81| INFO: Start building docking surface for ligand molecule
+00:00:15.81| INFO: Start building surface, molecule grid and distance function
+00:00:17.14| INFO: Start calculating Volume function and Normals for surface points
+00:00:17.20| INFO: Shuo surface size = 2689
+00:00:17.34| INFO: Start calculating Active Site patches
+00:00:17.35| INFO: Running segmentation for KNB
+00:00:17.38| INFO: Running segmentation for FLT
+00:00:17.39| INFO: Running segmentation for HLE
+00:00:17.51| INFO: Final # of patches: 6
+00:00:17.51| INFO: Start calculating Geodesical distances
+00:00:17.51| INFO: Start docking
+00:00:17.51| INFO: Initializing cluster parameters
+00:00:17.51| INFO: Building scoring trees
+00:00:17.90| INFO: Pose Clustering matching algorithm (default)
+00:00:17.90| INFO: Initializing Matching Data Structure
+00:00:17.90| INFO: Initializing cluster parameters
+00:00:17.90| INFO: Start Preprocessing
+00:00:17.90| INFO: Start Docking hole-knob patches
+00:00:17.90| INFO: Start clustering 2530 transforms
+00:00:17.90| WARNING: Reducing ignoreClustersSmaller parameter
+00:00:17.90| INFO: Clustered transforms size: 1
+00:00:17.90| INFO: Filtered transforms size: 0
+00:00:17.90| INFO: Backbone filtered transforms size: 0
+00:00:17.90| INFO: RMSD Clustered transforms size: 0
+00:00:17.90| INFO: Scored transforms size: 0
+00:00:17.90| INFO: Done processing patch # 1 out of 4
+00:00:17.92| INFO: Start clustering 7707 transforms
+00:00:17.93| INFO: Clustered transforms size: 1
+00:00:17.93| INFO: Filtered transforms size: 0
+00:00:17.93| INFO: Backbone filtered transforms size: 0
+00:00:17.93| INFO: RMSD Clustered transforms size: 0
+00:00:17.93| INFO: Scored transforms size: 0
+00:00:17.93| INFO: Done processing patch # 2 out of 4
+00:00:17.94| INFO: Start clustering 11582 transforms
+00:00:17.95| INFO: Clustered transforms size: 48
+00:00:17.96| INFO: Filtered transforms size: 17
+00:00:17.96| INFO: Backbone filtered transforms size: 14
+00:00:17.96| INFO: RMSD Clustered transforms size: 14
+00:00:18.03| INFO: Scored transforms size: 3
+00:00:18.03| INFO: Done processing patch # 3 out of 4
+00:00:18.04| INFO: Start clustering 31565 transforms
+00:00:18.11| INFO: Clustered transforms size: 265
+00:00:18.15| INFO: Filtered transforms size: 61
+00:00:18.15| INFO: Backbone filtered transforms size: 54
+00:00:18.15| INFO: RMSD Clustered transforms size: 48
+00:00:18.38| INFO: Scored transforms size: 23
+00:00:18.38| INFO: Done processing patch # 4 out of 4
+00:00:18.38| INFO: Start Docking flat-flat patches
+00:00:18.38| INFO: Start Docking knob-hole patches
+00:00:18.38| INFO: ProgTime: prog_time: 00:00:00.47
+00:00:18.38| INFO: Initial results size: 26
+00:00:18.38| INFO: After removal of low scoring: 25
+00:00:18.38| INFO: Results size after final clustering: 11
+00:00:18.56| INFO: Full scored transforms size: 11
+00:00:18.56| INFO: After full scoring: 11
+00:00:18.56| INFO: Finish docking
